@@ -16,21 +16,22 @@ print(20*"=")
 angka1 = float(input("Masukan Angka Pertama ="))
 operator = input(f"Pilih Operator(+, - ,*, /)=")
 angka2 = float(input("Masukan Angka Kedua ="))
-if operator == 1:
+if operator == '+':
      hasil = angka1 + angka2
      print(hasil)
-elif operator == 2:
+elif operator == '-':
     hasil = angka1 - angka2
     print(hasil)
-elif operator == 3:
+elif operator == '*':
     hasil = angka1 * angka2
     print(hasil)
-elif operator == 4:
+elif operator == '/':
     hasil = angka1 / angka2
     print(hasil)
 elif operator==0:
     exit()
-print("opsi tidak ditemukan")
+else:
+     print("opsi tidak ditemukan")
 
 
 
